@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+  <div class="site-frame">
+    <header class="site-header" id="top">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile section" id="profile" aria-labelledby="profile-heading">
+        <!-- TODO: Replace this image placeholder with your profile photo. -->
+        <div class="profile-image image-placeholder" role="img" aria-label="Profile image placeholder">
+          <span>Profile<br>image</span>
+        </div>
+        <div class="profile-copy">
+          <!-- TODO: Replace the name, role, and introduction with your own details. -->
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 id="profile-heading">Your Name</h1>
+          <p class="intro-text">Your role or a short introduction goes here. Add a few sentences about what you do and what you enjoy making.</p>
+          <!-- TODO: Replace this placeholder line with a short highlight, location, or availability note. -->
+          <p class="profile-note">A short personal highlight goes here.</p>
+        </div>
+      </section>
+
+      <section class="info-grid section" aria-label="Skills and certificates">
+        <article class="info-card" id="skills">
+          <h2>Skills</h2>
+          <!-- TODO: Replace these sample skills with your own skills and tools. -->
+          <ul class="bullet-list">
+            <li>Skill or tool one</li>
+            <li>Skill or tool two</li>
+            <li>Skill or tool three</li>
+            <li>Skill or tool four</li>
+          </ul>
+        </article>
+
+        <article class="info-card" id="certificates">
+          <h2>Certificates</h2>
+          <!-- TODO: Replace these placeholders with your certificate, issuer, and year. -->
+          <ul class="bullet-list">
+            <li>Certificate name — issuer</li>
+            <li>Certificate name — issuer</li>
+            <li>Certificate name — issuer</li>
+            <li>Certificate name — issuer</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="projects-section section" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <!-- TODO: Replace this sentence with a short introduction to your work. -->
+          <p class="section-description">A few things I've made and the ideas behind them.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <!-- TODO: Replace with a screenshot or image of project one. -->
+            <div class="project-image image-placeholder" role="img" aria-label="Project one image placeholder"><span>Project image</span></div>
+            <!-- TODO: Replace the title and description with details about project one. -->
+            <h3>Project One</h3>
+            <p>Write a short description of this project, your role, and the tools you used.</p>
+            <!-- TODO: Replace # with the live project or case-study URL. The blue color is a reference accent placeholder. -->
+            <a class="project-link" href="#">View project <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <!-- TODO: Replace with a screenshot or image of project two. -->
+            <div class="project-image image-placeholder" role="img" aria-label="Project two image placeholder"><span>Project image</span></div>
+            <!-- TODO: Replace the title and description with details about project two. -->
+            <h3>Project Two</h3>
+            <p>Write a short description of this project, your role, and the tools you used.</p>
+            <!-- TODO: Replace # with the live project or case-study URL. The blue color is a reference accent placeholder. -->
+            <a class="project-link" href="#">View project <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <!-- TODO: Replace with a screenshot or image of project three. -->
+            <div class="project-image image-placeholder" role="img" aria-label="Project three image placeholder"><span>Project image</span></div>
+            <!-- TODO: Replace the title and description with details about project three. -->
+            <h3>Project Three</h3>
+            <p>Write a short description of this project, your role, and the tools you used.</p>
+            <!-- TODO: Replace # with the live project or case-study URL. The blue color is a reference accent placeholder. -->
+            <a class="project-link" href="#">View project <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-card section" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Let's connect</h2>
+          <!-- TODO: Replace with your contact message and email address. -->
+          <p>Your contact message goes here.<br><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <!-- TODO: Replace this line with your social links or other contact details. -->
+          <p class="contact-detail">LinkedIn · GitHub · Location</p>
+        </div>
+        <div class="qr-area">
+          <!-- TODO: Replace this placeholder with your QR-code image and a useful alt description. -->
+          <div class="qr-placeholder image-placeholder" role="img" aria-label="QR code placeholder">QR<br>Code</div>
+          <span>Scan to connect</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <!-- TODO: Replace Your Name with your name; the year updates automatically. -->
+      <span>© <span id="current-year">2026</span> Your Name</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+  <script src="Portfolio.js"></script>
+</body>
+</html>
